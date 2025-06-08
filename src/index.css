@@ -1,0 +1,65 @@
+/* src/index.css */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    /* Main Theme Colors (using Hex) */
+    --background: #FFFFFF;
+    --foreground: #020817;
+    --card: #FFFFFF;
+    --card-foreground: #020817;
+    --primary: #1E40AF; /* A deeper blue for a more professional look */
+    --primary-foreground: #EFF6FF;
+
+    /* Additional Semantic Colors */
+    --muted: #F1F5F9;
+    --muted-foreground: #64748B;
+    --border: #E2E8F0;
+    --input: #E2E8F0;
+
+    /* Other Variables */
+    --radius: 0.5rem;
+    --font-sans: 'Inter', sans-serif;
+  }
+
+  .dark {
+    --background: #020817;
+    --foreground: #F8FAFC;
+    --card: #0F172A;
+    --card-foreground: #F8FAFC;
+    --primary: #60A5FA;
+    --primary-foreground: #020817;
+
+    --muted: #1E293B;
+    --muted-foreground: #94A3B8;
+    --border: #1E293B;
+    --input: #1E293B;
+  }
+
+  .theme-green {
+    --primary: #16A34A;
+    --primary-foreground: #F0FDF4;
+  }
+  .dark.theme-green {
+    --primary: #22C55E;
+    --primary-foreground: #052E16;
+  }
+}
+
+@theme {
+  /* Connect all our variables to Tailwind */
+  --font-family-sans: var(--font-sans);
+  --radius-lg: var(--radius);
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+}
