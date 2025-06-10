@@ -17,13 +17,13 @@ You need to have Node.js (version 18.x or higher recommended) and npm installed 
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/praveen-sripati/tailwind-theme-app.git
 ```
 
 2. **Navigate to the project directory:**
 
 ```bash
-cd your-repo-name
+cd tailwind-theme-app
 ```
 
 3. **Install NPM packages:**
