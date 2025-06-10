@@ -1,12 +1,49 @@
-# React + Vite
+# Advanced Theming with React & Tailwind CSS v4
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A reference project demonstrating a powerful, multi-theme system (Light/Dark mode + multiple accent colors) built with React, Vite, and the next-generation Tailwind CSS v4 engine.
 
-Currently, two official plugins are available:
+This project goes beyond a simple dark mode toggle to showcase a scalable and maintainable approach to theming using modern CSS features.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Getting Started
 
-## Expanding the ESLint configuration
+Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+You need to have Node.js (version 18.x or higher recommended) and npm installed on your machine.
+
+### Installation
+
+1. **Clone the repository:**
+
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+```
+
+2. **Navigate to the project directory:**
+
+```bash
+cd your-repo-name
+```
+
+3. **Install NPM packages:**
+
+```bash
+npm install
+```
+
+4. **Run the development server:**
+
+```bash
+npm run dev
+```
+
+The application should now be running on [http://localhost:5173](http://localhost:5173) (or the next available port).
+
+## Screenshot
+### Blue Accent
+![Screenshot](Screenshot1.png)
+![Screenshot](Screenshot2.png)
+### Green Accent
+![Screenshot](Screenshot3.png)
+![Screenshot](Screenshot4.png)
